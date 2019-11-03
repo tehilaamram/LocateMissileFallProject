@@ -9,3 +9,5 @@ the red pin is the reports <br/>
 the blue pin is where the k-means algorithm calculate the estimated fall location  <br/>
 
 ![photo_2019-09-17_18-23-58](https://user-images.githubusercontent.com/35970325/68087628-68cb9a00-fe60-11e9-9710-6c706f35b1ca.jpg)
+
+![photo_2019-09-17_22-43-00](https://user-images.githubusercontent.com/35970325/68087840-e80d9d80-fe61-11e9-962c-a22f88578314.jpg)
