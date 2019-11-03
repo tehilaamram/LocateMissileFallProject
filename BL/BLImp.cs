@@ -220,7 +220,7 @@ namespace BL
             try
             {
 
-                string url = "http://dev.virtualearth.net/REST/v1/Locations?query=" + address + "&key=CsCjXdxm9xtMOatks7sT~0WhmgHF0Vt2fHmXTisdbAA~An8zA7mEVRl3_SbL7BGis5D-3kF8JxHL9h68B6553GHhXmS2uSJ04y3qObrdc8xD";
+                string url = "http://dev.virtualearth.net/REST/v1/Locations?query=" + address + "&key=YOUR_BING_MAP_KEY";
 
                 using (var client = new WebClient())
                 {
@@ -259,7 +259,7 @@ namespace BL
 
                 using (var client = new WebClient())
                 {
-                    var queryString = "http://dev.virtualearth.net/REST/v1/Locations/" + latitude.ToString() + "," + longitude.ToString() + "?key=CsCjXdxm9xtMOatks7sT~0WhmgHF0Vt2fHmXTisdbAA~An8zA7mEVRl3_SbL7BGis5D-3kF8JxHL9h68B6553GHhXmS2uSJ04y3qObrdc8xD";
+                    var queryString = "http://dev.virtualearth.net/REST/v1/Locations/" + latitude.ToString() + "," + longitude.ToString() + "?key=YOUR_BING_MAP_KEY";
 
                     string response = client.DownloadString(queryString);
                     DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Response));
