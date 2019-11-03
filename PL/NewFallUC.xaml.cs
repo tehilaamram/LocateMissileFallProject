@@ -103,7 +103,7 @@ namespace PL
         private static string Copy(string path)
         {
             string sourceDir = path;
-            string backupDir = @"C:\Users\litalush\Documents\ConsoleApp1 (2)\ConsoleApp1\PL\images";
+            string backupDir = @"YOUR_URL_TO_PL/images";
             string fName = System.IO.Path.GetFileName(sourceDir);
             sourceDir = System.IO.Path.GetDirectoryName(sourceDir);
             try
