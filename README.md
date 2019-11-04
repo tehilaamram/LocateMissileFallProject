@@ -2,7 +2,6 @@
 this project simulates emergency telephone service center, <br/>
 civilian call the center when they hear "boom" as a result of missile fall, <br/>
 every 10 minutes are one period of time, all the reports in these 10 minutes are refer to the same fall (there is only 1 fall in 10 minutes) <br/>
-the field "num of explosions" in add report must be 1 for the project to work with no deadlock <br/>
 
 the black pin is where the real fall location is <br/>
 the red pin is the reports <br/>
